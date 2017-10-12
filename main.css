@@ -1,0 +1,44 @@
+body{ /* para decirle que quiero trabajar en el body*/
+  text-align: center; /*quiero que mi texto de body este centrado*/
+  /*si yo quisiera que toda mi pagina tuviera la fuente"lobster",
+   escribo aqui font-family: 'lobster'*, asi mismo si la quisiera en los parrafos, etc*/
+}
+
+.primera-seccion-cuadrado-color{ /*para que css sepa que eso viene de class se pone con un punto al principio*/
+  /* background-color para poner el color de fondo, podemos usar el nombre en ingles
+  background-color:red  ;
+  background-color: #f6ddcc;  usar el color hexadecimal */
+    background-color:  rgb(246, 221, 204) ; /*o con valor RGB*/
+    padding-bottom: 20px; /*dar espacio abajo*/
+  }
+  /*cambiar color de textos*/
+  p{
+    color :  #b71c1c ; /* el color se puede elegir mediante las tecnicas de background*/
+    font-family: 'Gilda Display ';
+
+  }
+/* para elegir una fuente ir a google Font, apretar el signo mas, luego el cuadro negro y copiar el link dado, este ponerlo
+esto ponerlo en el head bajo el title*/
+
+  h1{
+    font-family: 'Cinzel Decorative';
+  }
+  h3{
+    font-family: 'Cinzel Decorative';
+  }
+  h4{
+    font-family: 'Cinzel Decorative';
+  }
+
+  /*img (para cambiar el tamaño de todas las imagenes)
+      width: 400px; ancho  de la imagen
+      height: 400px; alto*/
+
+  /*para cambiar el tamaño de solo una foto, ir al html y en la linea de la img poner class ="nombrefoto" antes del src*/
+  .fototeaser{
+    width: 400px;
+    height: auto;
+  }
+.tercera-seccion-mas-info-enlaces{ /*para hacer un separador le digo border-top: tamaño type border css y color*/
+  border-top: 1px solid black; /* stylo dotted, saldran puntitos* stylo dasshed guiones*/
+}
